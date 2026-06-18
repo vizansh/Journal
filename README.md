@@ -1,6 +1,9 @@
-# Welcome to your Expo app 👋
+# Journal App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This project is a mobile journaling application built with React Native and Expo that helps users track and understand their emotional well-being over time. Users can write journal entries, and the application analyzes emotional patterns using sentiment analysis powered by the OpenAI API. In addition to journal content, the application incorporates contextual information such as typing behavior and weather data to provide richer emotional insights.
+
+The app generates visual reports and charts that allow users to view mood trends over weekly and monthly periods. It also provides AI-generated summaries that help users reflect on emotional patterns and changes over time. The goal of the project is to combine journaling, data visualization, and AI-powered analysis into a single tool for personal reflection and self-awareness.
+
 
 ## Get started
 
