@@ -12,7 +12,6 @@ The app generates visual reports and charts that allow users to view mood trends
 <img width="1080" height="2400" alt="Screenshot_2026-06-17-22-50-54-940_host exp exponent" src="https://github.com/user-attachments/assets/e08aeea3-3033-49e4-87e0-31f89973ac4d" />
 
 
----
 ## Get started
 
 1. Install dependencies
