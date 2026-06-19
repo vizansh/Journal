@@ -5,6 +5,14 @@ This project is a mobile journaling application built with React Native and Expo
 The app generates visual reports and charts that allow users to view mood trends over weekly and monthly periods. It also provides AI-generated summaries that help users reflect on emotional patterns and changes over time. The goal of the project is to combine journaling, data visualization, and AI-powered analysis into a single tool for personal reflection and self-awareness.
 
 
+## Screenshots
+
+<img width="1080" height="2400" alt="Screenshot_2026-06-17-22-47-44-480_host exp exponent" src="https://github.com/user-attachments/assets/756a8f61-15a6-4ae6-aa18-d1a3b79fe3e4" />
+
+<img width="1080" height="2400" alt="Screenshot_2026-06-17-22-50-54-940_host exp exponent" src="https://github.com/user-attachments/assets/e08aeea3-3033-49e4-87e0-31f89973ac4d" />
+
+
+
 ## Get started
 
 1. Install dependencies
