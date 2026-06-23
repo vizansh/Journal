@@ -1,60 +1,41 @@
-# Journal App
+# 📓 AI Journal: Contextual Sentiment Pipeline
 
-This project is a mobile journaling application built with React Native and Expo that helps users track and understand their emotional well-being over time. Users can write journal entries, and the application analyzes emotional patterns using sentiment analysis powered by the OpenAI API. In addition to journal content, the application incorporates contextual information such as typing behavior and weather data to provide richer emotional insights.
+A cross-platform mobile journaling application built with React Native, TypeScript, and Expo. The engine intercepts user journal entries, fuses them with contextual device metadata, and executes sentiment analysis via the OpenAI API to construct long-term emotional intelligence profiles.
 
-The app generates visual reports and charts that allow users to view mood trends over weekly and monthly periods. It also provides AI-generated summaries that help users reflect on emotional patterns and changes over time. The goal of the project is to combine journaling, data visualization, and AI-powered analysis into a single tool for personal reflection and self-awareness.
+---
 
+## 🧠 System Architecture & Data Pipeline
 
-## Screenshots
+The core engine transforms raw, unstructured text into structured, visual intelligence reports through a multi-stage fusion pipeline:
 
-<img width="1080" height="2400" alt="Screenshot_2026-06-17-22-47-44-480_host exp exponent" src="https://github.com/user-attachments/assets/756a8f61-15a6-4ae6-aa18-d1a3b79fe3e4" />
+1. **Contextual Ingestion:** Captures raw journal text alongside active telemetry data including typing behavior metrics (speed, cadence) and real-time environmental weather data.
+2. **LLM Sentiment Extraction:** Pipes the consolidated text payload to the OpenAI API, leveraging highly structured system prompting to return granular, tokenized emotional patterns and multi-dimensional sentiment scoring.
+3. **Temporal Aggregation:** Persists and serializes historical data points over distinct temporal brackets (Weekly and Monthly).
+4. **Data Visualization Layer:** Consumes aggregated time-series vectors to render interactive mood trend charts and predictive analytical reflections.
 
-<img width="1080" height="2400" alt="Screenshot_2026-06-17-22-50-54-940_host exp exponent" src="https://github.com/user-attachments/assets/e08aeea3-3033-49e4-87e0-31f89973ac4d" />
+---
 
+## 🛠️ Tech Stack
 
-## Get started
+* **Cross-Platform Framework:** React Native / Expo (File-based Routing, TypeScript)
+* **AI & Analytics Orchestration:** OpenAI API (Structured Text Analytics)
+* **Data Visualization:** React Native SVG Charts / Victory Native
+* **Networking & Environment Sync:** Axios / OpenWeather API
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## Demo 
 
-2. Start the app
+<img width="1080" height="2400" alt="Screenshot_2026-06-17-22-47-44-480_host exp exponent" src="https://github.com/user-attachments/assets/67bc1db5-0de8-4a47-ae61-f0bdf4d17efc" />
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+<img width="1080" height="2400" alt="Screenshot_2026-06-17-22-50-54-940_host exp exponent" src="https://github.com/user-attachments/assets/aab42305-1a18-4d51-a6f9-f624d4c8b2c9" />
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🚀 Quick Start
 
-## Get a fresh project
-
-When you're ready, run:
-
+### 1. Install Dependencies
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+npm install
