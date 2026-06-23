@@ -34,9 +34,13 @@ The core engine transforms raw, unstructured text into structured, visual intell
 
 ---
 
+## Android
+**Android:** download the .apk
+
+---
+
 ## 🚀 Quick Start
 
 ### 1. Install Dependencies
 ```bash
 npm install
-* **Android:** download the .apk
