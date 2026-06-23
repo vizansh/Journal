@@ -35,7 +35,7 @@ The core engine transforms raw, unstructured text into structured, visual intell
 ---
 
 ## Android
-**Android:** download the .apk
+**Android:** download the .apk to launch on the android.
 
 ---
 
@@ -44,3 +44,16 @@ The core engine transforms raw, unstructured text into structured, visual intell
 ### 1. Install Dependencies
 ```bash
 npm install
+```
+
+### 2. Configure Environment
+Create a .env file in the root directory and add your API tokens:
+```
+OPENAI_API_KEY=your_openai_key_here
+WEATHER_API_KEY=your_weather_key_here
+```
+
+### 3. Initialize Dev Server
+```bash
+npx expo start
+```
