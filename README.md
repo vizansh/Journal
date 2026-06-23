@@ -35,7 +35,7 @@ The core engine transforms raw, unstructured text into structured, visual intell
 ---
 
 ## Android
-**Android:** download the .apk to launch on the android.
+**Android:** download the [.apk](https://github.com/vizansh/Journal/releases/download/v1.0.0/app-release.apk) to launch on the android.
 
 ---
 
